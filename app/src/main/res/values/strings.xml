@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MedCenter</string>
+    <string name="login">ENTRAR</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="medcenter">MedCenter</string>
+    <string name="medcenter1">MedCenter</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="cadastrar">CADASTRAR</string>
+
+
+</resources>

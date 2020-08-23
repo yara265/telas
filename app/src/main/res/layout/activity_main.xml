@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!-- image 1 -->
+
+
+    <!-- drawable/image_1.xml -->
+
+    <View
+        android:id="@+id/image_1"
+        android:layout_width="416dp"
+        android:layout_height="725dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/image_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <vector
+        android:id="@+id/vector"
+        android:width="406dp"
+        android:height="730dp"
+        android:viewportWidth="406"
+        android:viewportHeight="730"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/image_1"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <group>
+
+            <clip-path android:pathData="M0 0H406V730H0V0Z" />
+
+        </group>
+
+    </vector>
+
+    <!-- image 2 -->
+
+
+    <!-- drawable/image_2.xml -->
+
+    <View
+        android:id="@+id/image_2"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="556dp"
+        android:background="@drawable/health"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/image_1"
+
+        />
+
+    <vector
+        android:id="@+id/vector5"
+        android:width="92dp"
+        android:height="92dp"
+        android:viewportWidth="92"
+        android:viewportHeight="92"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/image_1"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <group>
+
+            <clip-path android:pathData="M0 0H92V92H0V0Z" />
+
+            <path
+                android:pathData="M0 0H92V92H0V0Z"
+                android:strokeWidth="0.36"
+                android:strokeColor="#FCF6F6" />
+
+        </group>
+
+    </vector>
+
+    <!-- Rectangle 1 -->
+
+
+    <!-- drawable/rectangle_1.xml -->
+    <!-- LOGIN -->
+
+
+    <Button
+        android:id="@+id/rectangle_1"
+        android:onClick="loginn"
+        android:layout_width="244dp"
+        android:layout_height="68dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="440dp"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:text="@string/login"
+        android:textAppearance="@style/login"
+        tools:context="seu.pacote.app.login"
+        android:background="@drawable/rectangle_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+   <!-- <TextButton
+        android:id="@+id/login"
+        android:layout_width="94dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginBottom="236dp"
+        android:gravity="top"
+        android:text="@string/login"
+        android:textAppearance="@style/login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />-->
+
+    <vector
+        android:id="@+id/vector2"
+        android:width="244dp"
+        android:height="68dp"
+        android:viewportWidth="244"
+        android:viewportHeight="68"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/vector">
+
+        <group>
+
+            <clip-path android:pathData="M34 0H210C228.778 0 244 15.2223 244 34C244 52.7777 228.778 68 210 68H34C15.2223 68 0 52.7777 0 34C0 15.2223 15.2223 0 34 0Z" />
+
+            <path
+                android:fillColor="#F7F3F3"
+                android:pathData="M0 0V68H244V0" />
+
+        </group>
+
+    </vector>
+
+
+  <!-- Rectangle 2 -->
+
+    <!-- drawable/rectangle_2.xml -->
+
+   <!-- <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="163dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="112dp"
+        android:gravity="top"
+        android:text="@string/sign_up"
+        android:textAppearance="@style/sign_up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+        -->
+
+    <Button
+        android:id="@+id/rectangle_2"
+        android:layout_width="244dp"
+        android:layout_height="68dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/sign_up"
+        android:textAppearance="@style/sign_up"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
+
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/rectangle_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <vector
+        android:width="244dp"
+        android:height="68dp"
+        android:viewportWidth="244"
+        android:viewportHeight="68"
+        app:layout_constraintBottom_toTopOf="@+id/image_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <group>
+
+            <clip-path android:pathData="M34 0H210C228.778 0 244 15.2223 244 34C244 52.7777 228.778 68 210 68H34C15.2223 68 0 52.7777 0 34C0 15.2223 15.2223 0 34 0Z" />
+
+            <path
+                android:fillColor="#7F85A8"
+                android:pathData="M0 0V68H244V0" />
+
+        </group>
+
+    </vector>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="304dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.324" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="297dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="344dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/image_1"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

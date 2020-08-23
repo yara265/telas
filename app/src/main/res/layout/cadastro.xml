@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- drawable/image_3.xml -->
+
+    <View
+        android:id="@+id/image_3"
+        android:layout_width="425dp"
+        android:layout_height="730dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/image_3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <vector
+        android:width="425dp"
+        android:height="730dp"
+        android:viewportWidth="425"
+        android:viewportHeight="730"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <group>
+
+            <clip-path android:pathData="M0 0H425V730H0V0Z" />
+
+        </group>
+
+    </vector>
+    <!-- MedCenter -->
+
+    <TextView
+        android:id="@+id/medcenter"
+        android:layout_width="321dp"
+        android:layout_height="92.07dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="108dp"
+        android:gravity="top"
+        android:text="@string/medcenter"
+        android:textAppearance="@style/medcenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/medcenter1"
+        android:layout_width="321dp"
+        android:layout_height="92.07dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:text="@string/medcenter"
+        android:textAppearance="@style/medcenter"
+        android:textColor="#0B0A0A"
+        app:layout_constraintBottom_toTopOf="@+id/nome_cadastro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646" />
+
+    <TextView
+        android:id="@+id/cadastre_se"
+        android:layout_width="189dp"
+        android:layout_height="41dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="top"
+        android:text="@string/cadastre_se"
+        android:textAppearance="@style/cadastre_se"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!-- drawable/rectangle_3.xml -->
+
+    <EditText
+        android:id="@+id/nome_cadastro"
+        android:layout_width="324dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="260dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nome"
+        android:textColor="#DFD5D5"
+        android:textColorHint="#EDE9E9"
+        app:layout_constraintBottom_toTopOf="@+id/CPF_cadastro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/CPF_cadastro"
+        android:layout_width="324dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="352dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="CPF"
+        android:textColor="#DAD1D1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/image_3"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/email_cadastro"
+        android:layout_width="324dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="260dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email"
+        android:textColor="#D6CECE"
+        app:layout_constraintBottom_toBottomOf="@+id/image_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/senha_cadastro"
+        android:layout_width="324dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="180dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Senha"
+        android:textColor="#DDD4D4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/rectangle_3"
+        android:layout_width="244dp"
+        android:layout_height="68dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="72dp"
+        android:text="@string/cadastrar"
+        android:textAppearance="@style/cadastrar"
+        android:background="@drawable/rectangle_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+    <!-- CADASTRAR -->
+    <!--<TextView
+        android:id="@+id/cadastrar"
+        android:layout_width="169dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="570dp"
+        android:text="@string/cadastrar"
+        android:textAppearance="@style/cadastrar"
+        android:gravity="top"
+        />
+        -->
+    <vector
+        android:width="244dp"
+        android:height="68dp"
+        android:viewportWidth="244"
+        android:viewportHeight="68"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <group>
+
+            <clip-path android:pathData="M34 0H210C228.778 0 244 15.2223 244 34C244 52.7777 228.778 68 210 68H34C15.2223 68 0 52.7777 0 34C0 15.2223 15.2223 0 34 0Z" />
+
+            <path
+                android:fillColor="#F7F3F3"
+                android:pathData="M0 0V68H244V0" />
+
+        </group>
+
+    </vector>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Já tenho cadastro."
+        app:layout_constraintBottom_toBottomOf="@+id/image_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

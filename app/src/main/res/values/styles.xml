@@ -1,0 +1,78 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="login">
+
+        <item name="android:textSize">28sp</item>
+
+        <item name="android:textColor">#5128C6</item>
+
+    </style>
+
+    <style name="sign_up">
+
+        <item name="android:textSize">
+            28sp
+        </item>
+
+        <item name="android:textColor">
+            #F8F0F0
+        </item>
+
+    </style>
+    <style name="medcenter">
+
+        <item name="android:textSize">
+            65sp
+        </item>
+
+        <item name="android:textColor">
+            #645573
+        </item>
+
+    </style>
+
+    <style name="medcenter1">
+
+        <item name="android:textSize">
+            65sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="cadastre_se">
+
+        <item name="android:textSize">
+            28sp
+        </item>
+
+        <item name="android:textColor">
+            #F8F1F1
+        </item>
+
+    </style>
+    <style name="cadastrar">
+
+        <item name="android:textSize">
+            28sp
+        </item>
+
+        <item name="android:textColor">
+            #5128C6
+        </item>
+
+    </style>
+
+
+
+
+</resources>
